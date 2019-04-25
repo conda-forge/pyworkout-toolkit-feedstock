@@ -1,5 +1,5 @@
 {% set name = "pyworkout-toolkit" %}
-{% set version = "0.0.21" %}
+{% set version = "0.0.22" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/triskadecaepyon/pyworkout-toolkit/archive/v{{ version }}.tar.gz
-  sha256: eb188622fac6a4585c7122fcf4b0c1d12f879e00b084b15a9b435d420c9b4960
+  sha256: b9ce8d92ede641d703db1f37df83cef23b073b136d46162294b9f5b1a07c2b58
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - python >=3
     - numpy >=1.11
     - pandas >=0.19.0
-    - lxml >=3.7.0
+    - lxml >=4.0.0
 
 test:
   imports:
